@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Totem Immortal BP",
+    "description": "Reusable Totem of Undying — 5 charges per totem, stack 16, 25s cooldown. Script API stable.",
+    "uuid": "fa054e43-aaba-4393-b762-62df3ec56021",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "7ba07b5d-635d-4161-b8f0-37d53583c1fa",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "81199017-2214-439f-80f2-dcf94e8280de",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "3d9f0ad9-83cc-479a-b551-2c59de17f058",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["Totem Immortal"],
+    "product": "Totem Immortal",
+    "license": "MIT"
+  }
+}
